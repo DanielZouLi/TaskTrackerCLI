@@ -25,14 +25,14 @@ public class Task {
      public String getDescription() {
         return description;
      }
-     public void setDescription(String description) {
-        this.description = this.description;
+     public void setDescription() {
+        this.description = description;
         this.updateAt = LocalDateTime.now();
      }
      public String getStatus() {
         return status;
      }
-     public void setStatus(String status) {
+     public void setStatus() {
         this.status = status;
         this.updateAt = LocalDateTime.now();
      }
