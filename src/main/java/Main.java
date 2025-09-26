@@ -8,23 +8,23 @@ public class Main {
 //        Task Task1 = new Task(1, "First CLI Tracker");
 //        Task Task2 = new Task(2, "Second CLI Tracker");
 //        System.out.println(Task1);
-//        System.out.println(Task2);
-        manager.addTask(1, "First Task");
-        manager.addTask(2, "Second Task");
+////        System.out.println(Task2);
+//        manager.addTask("First Task");
+//        manager.addTask("Second Task");
 
         System.out.println("\nAll Tasks: ");
         manager.listTask();
-
-        System.out.println("\nUpdating task: ");
-        manager.updateTask(1, "Learning Java");
-
-        System.out.println("\nChanging task status: ");
-        manager.markTaskAsDone(2);
-
-        System.out.println("\nDeleting task: ");
-        manager.deleteTask(1);
-
-        System.out.println("\nAll Tasks: ");
-        manager.listTask();
+//
+//        System.out.println("\nUpdating task: ");
+//        manager.updateTask(1, "Learning Java");
+//
+//        System.out.println("\nChanging task status: ");
+//        manager.markTaskAsDone(2);
+//
+//        System.out.println("\nDeleting task: ");
+//        manager.deleteTask(1);
+//
+//        System.out.println("\nAll Tasks: ");
+//        manager.listTask();
     }
 }
