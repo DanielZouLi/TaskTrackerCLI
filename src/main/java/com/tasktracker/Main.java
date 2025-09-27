@@ -1,17 +1,31 @@
+// import model.Task;
 package com.tasktracker;
+import CLI.TaskManager;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        TaskManager manager = new TaskManager();
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+//        Task Task1 = new Task(1, "First CLI Tracker");
+//        Task Task2 = new Task(2, "Second CLI Tracker");
+//        System.out.println(Task1);
+////        System.out.println(Task2);
+//        manager.addTask("First Task");
+//        manager.addTask("Second Task");
+
+        System.out.println("\nAll Tasks: ");
+        manager.listTask();
+//
+//        System.out.println("\nUpdating task: ");
+//        manager.updateTask(1, "Learning Java");
+//
+//        System.out.println("\nChanging task status: ");
+//        manager.markTaskAsDone(2);
+//
+//        System.out.println("\nDeleting task: ");
+//        manager.deleteTask(1);
+//
+//        System.out.println("\nAll Tasks: ");
+//        manager.listTask();
     }
 }
