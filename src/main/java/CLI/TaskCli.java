@@ -8,4 +8,10 @@ public class TaskCli {
         this.taskManager = taskManager;
         scanner = new Scanner(System.in);
         }
+
+        private void HandleAddTask(String [] commandArgs) {
+            if(commandArgs.length > 1) {
+
+            }
+        }
     }
