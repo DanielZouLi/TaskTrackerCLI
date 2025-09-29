@@ -11,7 +11,12 @@ public class TaskCli {
 
         private void HandleAddTask(String [] commandArgs) {
             if(commandArgs.length > 1) {
+                taskManager.addTask(commandArgs[1]);
+            } else {
+                System.out.println("Please enter a task description");
+            }
+        }
+            private void handleUpdateTask() {
 
             }
         }
-    }
